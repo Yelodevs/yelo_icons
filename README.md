@@ -66,7 +66,7 @@ class MyWidget extends StatelessWidget {
 
 ## Additional information
 
-For more information on using this package, please refer to the [API documentation](YELO-API-DOC).
+For more information on using this package, please refer to the [API documentation](YELO-API-DOC.md).
 
 To report issues or contribute to the package, visit our [GitHub repository](https://github.com/Yelodevs/yelo_icons).
 
