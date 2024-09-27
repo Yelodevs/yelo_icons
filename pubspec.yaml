@@ -1,7 +1,7 @@
 name: yelo_icons
 description: "A Flutter package for easily integrating custom SVG icons into your Flutter applications."
-version: 1.0.0
-homepage: " https://yelodev.gitbook.io/yelo-icons/"
+version: 1.0.1
+homepage: https://yelodev.gitbook.io/yelo-icons
 
 environment:
   sdk: ^3.5.2
