@@ -1,6 +1,6 @@
 # Yelo Icons
 [![Pub](https://img.shields.io/pub/v/yelo_icons.svg)](https://pub.dartlang.org/packages/yelo_icons)
-[![Coverage Status](https://coveralls.io/repos/github/Yelodevs/yelo_icons/badge.svg?branch=main)](https://coveralls.io/github/Yelodevs/yelo_icons?branch=main)
+<!-- [![Coverage Status](https://coveralls.io/repos/github/Yelodevs/yelo_icons/badge.svg?branch=main)](https://coveralls.io/github/Yelodevs/yelo_icons?branch=main) -->
 
 A Flutter package for easily integrating custom SVG icons into your Flutter applications.
 

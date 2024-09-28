@@ -1,3 +1,7 @@
+## 1.0.2
+- Docs updated
+-
+
 ## 1.0.1
 - Added more props to icon
 - Removed console prints
