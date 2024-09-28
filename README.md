@@ -1,4 +1,6 @@
 # Yelo Icons
+[![Pub](https://img.shields.io/pub/v/yelo_icons.svg)](https://pub.dartlang.org/packages/yelo_icons)
+[![Coverage Status](https://coveralls.io/repos/github/Yelodevs/yelo_icons/badge.svg?branch=main)](https://coveralls.io/github/Yelodevs/yelo_icons?branch=main)
 
 A Flutter package for easily integrating custom SVG icons into your Flutter applications.
 
@@ -26,7 +28,7 @@ Add `yelo_icons` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  yelo_icons: ^1.0.0
+  yelo_icons: ^1.0.2
 ```
 
 Run `flutter pub get` to install the package.
@@ -36,7 +38,7 @@ Run `flutter pub get` to install the package.
 Import the package in your Dart code:
 
 ```dart
-import 'package:linxford_icons/yelo_icons.dart';
+import 'package:yelo_icons/yelo_icons.dart';
 ```
 
 Use the `Yelo.icon()` method to display an icon:
@@ -49,7 +51,7 @@ Yelo.icon("bold/user", size: 24, color: Colors.blue)
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:linxford_icons/linxford_icons.dart';
+import 'package:yelo_icons/yelo_icons.dart';
 
 class MyWidget extends StatelessWidget {
   @override
@@ -71,7 +73,7 @@ For more information on using this package, please refer to the [API documentati
 To report issues or contribute to the package, visit our [GitHub repository](https://github.com/Yelodevs/yelo_icons).
 
 ## Contributing
-If you have suggestions or find issues with the extension, feel free to open an issue or a pull request on the [GitHub repository](https://github.com/Yelodevs/syelo_icons).
+If you have suggestions or find issues with the extension, feel free to open an issue or a pull request on the [GitHub repository](https://github.com/Yelodevs/yelo_icons).
 
 ## Credits
 - Kudos to all contributors that made this extension what it is.
