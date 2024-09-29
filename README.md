@@ -1,12 +1,13 @@
+### Updated README for **Yelo Icons**:
+
 # Yelo Icons
 [![Pub](https://img.shields.io/pub/v/yelo_icons.svg)](https://pub.dartlang.org/packages/yelo_icons)
-<!-- [![Coverage Status](https://coveralls.io/repos/github/Yelodevs/yelo_icons/badge.svg?branch=main)](https://coveralls.io/github/Yelodevs/yelo_icons?branch=main) -->
 
 A Flutter package for easily integrating custom SVG icons into your Flutter applications.
 
 # Support
 
-**YELO ICONS** is an package created for **Flutter/dart**. If you find it useful, please consider supporting it.
+**YELO ICONS** is a package created for **Flutter/dart**. If you find it useful, please consider supporting it.
 
 <table align="center" width="60%" border="0">
   <tr>
@@ -21,6 +22,7 @@ A Flutter package for easily integrating custom SVG icons into your Flutter appl
 - Simple API for using custom SVG icons
 - Customizable icon size and color
 - Built on top of the `flutter_svg` package for efficient SVG rendering
+- **New in v1.0.3**: Added interaction handlers like `onTap`, `onPress`, `onLongPress` and more.
 
 ## Getting started
 
@@ -28,7 +30,7 @@ Add `yelo_icons` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  yelo_icons: ^1.0.2
+  yelo_icons: ^1.0.3
 ```
 
 Run `flutter pub get` to install the package.
@@ -41,13 +43,31 @@ Import the package in your Dart code:
 import 'package:yelo_icons/yelo_icons.dart';
 ```
 
+### Basic Usage:
 Use the `Yelo.icon()` method to display an icon:
 
 ```dart
 Yelo.icon("bold/user", size: 24, color: Colors.blue)
 ```
 
-## Example
+### With Interaction:
+You can now add interaction events such as `onTap`, `onLongPress`, etc.
+
+```dart
+Yelo.icon(
+  "bold/user",
+  size: 48,
+  color: Colors.red,
+  onTap: () {
+    print("User icon tapped!");
+  },
+  onLongPress: () {
+    print("User icon long-pressed!");
+  },
+)
+```
+
+### Example:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -58,7 +78,9 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Yelo.icon("bold/user", size: 48, color: Colors.red),
+        Yelo.icon("bold/user", size: 48, color: Colors.red, onTap: () {
+          print('Icon tapped!');
+        }),
         Yelo.icon("outline/settings", size: 24, color: Colors.green),
       ],
     );
@@ -73,11 +95,11 @@ For more information on using this package, please refer to the [API documentati
 To report issues or contribute to the package, visit our [GitHub repository](https://github.com/Yelodevs/yelo_icons).
 
 ## Contributing
-If you have suggestions or find issues with the extension, feel free to open an issue or a pull request on the [GitHub repository](https://github.com/Yelodevs/yelo_icons).
+
+If you have suggestions or find issues with the package, feel free to open an issue or a pull request on the [GitHub repository](https://github.com/Yelodevs/yelo_icons).
 
 ## Credits
-- Kudos to all contributors that made this extension what it is.
+- Kudos to all contributors who made this package what it is.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-- Branded icons are licensed under their copyright license.

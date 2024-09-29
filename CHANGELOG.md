@@ -1,3 +1,11 @@
+## 1.0.3
+- Added interaction properties: `onTap`, `onPress`, and `onLongPress`
+- Introduced `borderRadius` for optional ripple effect customization
+- Added `enableFeedback` to control haptic feedback (sound/vibration) on interaction
+- Enhanced customization options for `BoxFit`, `Alignment`, and `matchTextDirection`
+- Wrapped icon in `InkWell` for better gesture handling
+
+
 ## 1.0.2
 - Docs updated
 -
